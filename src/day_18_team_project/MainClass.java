@@ -29,6 +29,8 @@ public class MainClass {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int num, su;
+		Event eve = new Event();
+		
 		while(true) {
 			System.out.println("1. 회원관리 2. 물품관리 3. 이벤트관리 4. 종료");
 			System.out.print(">>> ");
@@ -69,25 +71,12 @@ public class MainClass {
 					}
 					break;
 				case 3:		// 이벤트관리
-					System.out.println("이벤트 관리입니다.");
-					System.out.println("1. 이벤트등록 2. 이벤트검색 3. 돌아가기");
-					System.out.print(">>> ");
-					su = input.nextInt();
-					switch(su) {
-					case 1:		// 등록
-						
-						break;
-					case 2:		// 검색
-						
-						break;
-					case 3:		// 돌아가기
-						
-						break;
-					}
+					eve.display();
 					break;
 				case 4:
 					System.exit(0);
 			}
+			System.out.println();
 		}
 	}
 }
