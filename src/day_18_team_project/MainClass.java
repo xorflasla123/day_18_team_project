@@ -12,7 +12,7 @@ import java.util.Scanner;
 -검색
 -돌아가기
 
-3. 이벤트관리	- 택림님
+3. 이벤트관리	- 택림님(Event 클래스)
 -등록 [날자(월/일) 이름] Hashmap<String, String>
 -검색
 -돌아가기
