@@ -29,12 +29,8 @@ public class MainClass {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int num, su;
-<<<<<<< HEAD
-		
-		Member m = new Member(); 
-=======
+		Member m = new Member();
 		Event eve = new Event();
->>>>>>> c_branch
 		
 		while(true) {
 			System.out.println("1. 회원관리 2. 물품관리 3. 이벤트관리 4. 종료");
