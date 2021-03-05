@@ -1,10 +1,8 @@
-
-
-	package day_18_team_project;
-	/*2. ë¬¼í’ˆê´€ë¦¬
-	-ë“±ë¡ [ë¬¼í’ˆë²ˆí˜¸ (ì´ë¦„ ìˆ˜ëŸ‰)] Hashmap<Integer, Product(class)>
-	-ê²€ìƒ‰
-	-ëŒì•„ê°€ê¸°
+package day_18_team_project;
+	/*2. ¹°Ç°°ü¸®
+	-µî·Ï [¹°Ç°¹øÈ£ (ÀÌ¸§ ¼ö·®)] Hashmap<Integer, Product(class)>
+	-°Ë»ö
+	-µ¹¾Æ°¡±â
 	*/
 
 	public class pro {

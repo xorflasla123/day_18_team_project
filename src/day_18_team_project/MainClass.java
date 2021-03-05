@@ -30,6 +30,7 @@ public class MainClass {
 		Scanner input = new Scanner(System.in);
 		int num, su;
 		Member m = new Member();
+		Product p = new Product();
 		Event eve = new Event();
 		
 		while(true) {
@@ -61,10 +62,10 @@ public class MainClass {
 					su = input.nextInt();
 					switch(su) {
 					case 1:		// 등록
-						
+						p.register();
 						break;
 					case 2:		// 검색
-						
+						p.search();
 						break;
 					case 3:		// 돌아가기
 						
